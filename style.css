@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+*{box-sizing: border-box;}
+a{
+    text-decoration: none;
+    color:black;
+    margin-right: 6px;
+}
+
+
+
+:root{
+    font-family: 'Bahiana', cursive;
+    margin: 0;
+    padding:0;
+    font-size: 1.2rem ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 40%;
+}
+body{
+    max-width: 980px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Bahiana', cursive;
+}
+
+main{
+    padding-top: 21.82px;
+}
+
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    position: fixed;
+    background-color: white;
+    max-width: 980px;
+    width: 100%;
+    z-index: 999;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    align-items: top;
+    justify-content: space-between;
+    
+}
+
+nav{
+    display: flex;
+    text-decoration: none;
+}
+
+
+.img{
+    width: 100%;  
+}
+
+
+
+
+.photo{
+    height:400px;
+    background-image: url(img/cyberpunk.jpg);
+    background-position: center;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+#personal-website{
+    color: white;
+    margin: 0 auto;
+}
+
+.black-box{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+h1{
+    z-index: 10;
+}
+
+.starship{
+    background-image: url(img/starship.jpg);
+    background-size:cover ;
+}
+
+.personal{
+    color: white;
+    margin: 0 auto;
+    z-index: 10;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+@media (min-width:500px){
+    :root{
+        font-size: 1.5rem;
+    }
+    main{
+        padding-top: 28px;
+    }
+}
+.soma-photo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.soma-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.ms-box{
+    grid-template-columns: 1fr 1fr;
+}
+
+.photo-box{
+    border: 3px solid black;
+    margin: 5px;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.art-box{
+    padding: 3%;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    margin: 0.75%;
+}
+
+.arts{
+    border-radius: 10px;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    padding-right: 0.7%;
+}
+
+.text-box-arts{
+    display: inline-block;
+    max-width: 40%;
+}
+
+@media(max-width:850px){
+    .soma-box{
+        grid-template-columns: 1fr 1fr 1fr ;
+    }
+    .ms-box{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:780px){
+    .soma-box{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+
+
+@media(max-width:465px){
+    .arts{
+        width: 100%;
+        height: 100%;
+    }
+    .text-box-arts{
+        max-width: 100%;
+    }
+    .art-box{
+        display:inline-block;
+    }
+    .soma-box{
+        grid-template-columns: 1fr ;
+    }
+}
+
+@media(max-width:560px){
+    header{
+        font-size: 1rem;
+    }
+}
+
+
+.my-services-photo{
+    background-image: url(img/services.png);
+    background-size:cover ;
+    margin-top:3px ;
+}
+
+.link-box{
+    box-shadow: 0px -3px 7px rgba(0, 0, 0, 0.5);
+    margin-bottom: 0;
+    margin-top: 17px;
+}
+
+.me-in-society-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.me-in-society{
+    margin: 0;
+    padding-top: 10px;
+}
+
+.contacts-inputs{
+    width: 80%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.3rem;
+    margin: 5px;
+}
+input{
+    font-family: 'Bahiana', cursive;
+    font-size: 1.1rem;
+}
+
+.submit-button{
+    margin-top: 5px;
+}
+
+.body-back-ground{
+  
+    width: 100%;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+.btn{
+    padding: 0px 8px 0px 8px;
+}
+.carousel-images{
+    border-radius: 10px;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.navbar{
+    padding: .1rem;
+    align-items: center;
+    text-align: center
+}
+
+.navbar-nav{
+    flex-direction: column;
+    text-align: end;
+}
+
+
+.logo{
+    font-size: 1.7rem
+}
+
+.nav-link{
+    color:rgb(0, 108, 229)!important;
+    padding: 0;
+    transition: color .2s linear;
+}
+
+.modal-header{
+    padding: 0.3rem 0.3rem;
+    align-items: center;
+}
+
+.modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
+.tovar{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  /* opacity: 0; */
+}
+
+.math-box{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.math-box2{
+  display: flex;
+  height: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
+.price{
+  display: flex;
+}
+
+.modal-body{
+    padding: 5px;
+}
+
+.navbar-toggler{
+    align-items: flex-start;
+}
+
+.navbar-collapse{
+     flex-basis: 100%;
+     transition: all .2s linear;
+}
+
+.close{
+    width: 50px;
+    height: 50px;
+}
+
+.icon{
+    height: 40px;
+}
+
+.nav-link:hover{
+    
+    color: rgb(0, 55, 117)!important;
+}
+
+.nav-bar-shop-box{
+    display: flex;
+}
+
+.nav-bar{
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
